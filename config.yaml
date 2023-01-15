@@ -115,10 +115,10 @@ params:
   # Hero section
   hero:
     enable: true
-    intro: "Hi, my name is"
+    intro: "Hello World! My name is"
     title: "Pedro."
     subtitle: "I analize and make predictions."
-    content: "A passionate actuary/data scientist. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    content: "A passionate actuary/data scientist. I tend to make use of modern technologies to build statistical models and VIZ that looks great, feels fantastic, and functions correctly."
     image: /images/hero.svg
     button:
       enable: true
