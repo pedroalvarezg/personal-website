@@ -3,7 +3,7 @@
     "path": "~/Documents/ACTUARIA/personal-website/config.yaml",
     "project_path": "config.yaml",
     "type": "yaml",
-    "hash": "3849072729",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1673730044357.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "135,47",
-        "scrollLine": "109"
+        "cursorPosition": "217,16",
+        "scrollLine": "241"
     },
     "folds": "",
-    "lastKnownWriteTime": 1673751351,
+    "lastKnownWriteTime": 1673821406,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1673751351248,
+    "last_content_update": 1673821406,
     "read_only": false,
     "read_only_alternatives": []
 }
