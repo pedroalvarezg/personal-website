@@ -3,7 +3,7 @@
     "path": "~/Documents/ACTUARIA/personal-website/config.yaml",
     "project_path": "config.yaml",
     "type": "yaml",
-    "hash": "356015257",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1673730044357.0,
@@ -12,8 +12,8 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "117,26",
-        "scrollLine": "102"
+        "cursorPosition": "121,8",
+        "scrollLine": "100"
     },
     "folds": "",
     "lastKnownWriteTime": 1673746685,
