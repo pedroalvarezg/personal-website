@@ -128,13 +128,15 @@ params:
       newPage: true
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://example.com
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/pedro-álvarez0125
         - icon: fab fa-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://twitter.com/PedroAl0112
+        - icon: fab fa-github
+          url: https://github.com/pedroalvarezg
+      # customIcons:
+      #   - icon: /fav.png
+      #     url: "https://example.com"
 
   # About
   about:

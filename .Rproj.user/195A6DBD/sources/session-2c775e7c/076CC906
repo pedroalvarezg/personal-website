@@ -3,7 +3,7 @@
     "path": "~/Documents/ACTUARIA/personal-website/layouts/partials/sections/hero/index.html",
     "project_path": "layouts/partials/sections/hero/index.html",
     "type": "html",
-    "hash": "2982960103",
+    "hash": "2600421464",
     "contents": "",
     "dirty": false,
     "created": 1673747147525.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "36,98",
+        "cursorPosition": "36,91",
         "scrollLine": "21"
     },
     "folds": "",
-    "lastKnownWriteTime": 1673750451,
+    "lastKnownWriteTime": 1673751750,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1673750451590,
+    "last_content_update": 1673751750171,
     "read_only": false,
     "read_only_alternatives": []
 }
