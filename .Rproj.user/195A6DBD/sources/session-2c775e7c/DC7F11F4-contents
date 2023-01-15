@@ -177,6 +177,7 @@ params:
           name: "View the project"
           url: "https://www.datlas.mx/reportes/"
         content: "I am currently working as a data analyst at [Datlas](https://www.datlas.mx/) in Monterrey, NL. I am currently working on the automatization of generating reports of any urban area integrating relevant data and insights."
+      
       - job: "Data Scientist"
         company: "Mindful Agency"
         companyUrl: "https://mindfulagency.com/"
@@ -201,7 +202,7 @@ params:
           enable: false
           url: "https://example.com"
         info:
-          enable: true
+          enable: false
           content: I worked as a software developer for more than one year in Amazon.
         content: |
           I worked as a QA Analyst at [Epicor](https://www.epicor.com/en/) in Monterrey, NL. I was doing the following activities:
@@ -209,69 +210,6 @@ params:
           - Build, edit and update test cases based on approved requests.
           - Use a Content Management System to create, edit and test pages, forms and functionalities.
           - Execute SQL Queries to search from the database and understanding the SQL tables.
-
-      
-  # Education
-  education:
-    enable: true
-    # title: "Custom Name"
-    index: false
-    items:
-      - title: "Master of Business Administration"
-        school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
-        content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-        featuredLink:
-          enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
-        school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-
-  # Achievements
-  achievements:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
 
   # projects
   projects:
@@ -322,6 +260,65 @@ params:
         links:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/HugoProfileV2
+    
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      # - title: "Master of Business Administration"
+      #   school:
+      #     name: "University of California, Berkeley"
+      #     url: "https://example.org"
+      #   date: "2013 - 2015"
+      #   GPA: "3.8 out of 5.0"
+      #   content: |-
+      #     Extracurricular Activities
+      #       - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+      #       - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+      - title: "Bachelor of Science in Actuarial Science"
+        school:
+          name: "Universidad Autónoma de Nuevo León"
+          url: "https://www.uanl.mx/"
+        date: "2019 - 2023"
+        content: |-
+         
+          Extracurricular Activities
+            - Photonics Research Team
+            - Representative Football Team of School.
+        featuredLink:
+          enable: true
+          name: "My academic record"
+          url: /KARDEX 7mo.pdf
+      - title: "High School"
+        school:
+          name: "Centro de Investigación y Desarrollo de Educación Bilingüe."
+          url: "https://cideb.uanl.mx/"
+        
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+
+  # Achievements
+  achievements:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Google kickstart runner
+        content: I solved all problems with optimal solution.
+        url: https://example.com
+      - title: Facebook Hackathon Winner
+        content: Developed a product using Artificial Intelligence.
+      - title: Hugo Profile
+        content: Developed a theme and getting 1K+ downloads per month.
+        url: "https://github.com/gurusabarish/hugo-profile"
+      - title: Microsoft Imagine Runner
+        content: We are developed a product which can help others.
+      - title: Google Summer of Code
+        content: Contributed to a open source project.
+        url: https://example.com
+
 
   #Contact
   contact:
