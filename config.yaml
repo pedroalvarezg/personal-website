@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://pedro-alvarez.netlify.app"
 languageCode: "en-us"
 title: "Pedro Alvarez"
 theme: "hugo-profile"
@@ -30,10 +30,10 @@ Menus:
       url: /blogs
       weight: 1
     - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+      # name: Gallery
+      # title: Blog posts
+      # url: /gallery
+      # weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -54,7 +54,7 @@ Menus:
 
 params:
   title: "Pedro Alvarez"
-  description: Text about my cool site
+  description: My cool website.
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -81,22 +81,20 @@ params:
     lineHeight: 1.5 # default: 1.5
     textAlign: left # default: left
 
-  # color preference
-  # color:
-  #   textColor:
-  #   secondaryTextColor:
-  #   backgroundColor:
-  #   secondaryBackgroundColor:
-  #   primaryColor:
-  #   secondaryColor:
+ # color preference
+  color:
+    # textColor: "#D1D1D1"
+    # secondaryTextColor: "#C1A3A3"
+    # backgroundColor: "#470D21"
+    # primaryColor: "#F3F0D7"
+    # secondaryColor: "#781D42"
 
-  #   darkmode:
-  #     textColor:
-  #     secondaryTextColor:
-  #     backgroundColor:
-  #     secondaryBackgroundColor:
-  #     primaryColor:
-  #     secondaryColor:
+    darkmode:
+      textColor: "#F5F5F5"
+      secondaryTextColor: "#F5F5F5"
+      backgroundColor: "#313552"
+      primaryColor: "#F1E0AC"
+      secondaryColor: "#30475E"
 
   # If you want to customize the menu, you can change it here
   navbar:
@@ -126,8 +124,11 @@ params:
       url: "#"
       download: true
       newPage: true
+      
     socialLinks:
       fontAwesomeIcons:
+        - icon: fa fa-envelope
+          url: /#contact
         - icon: fab fa-linkedin
           url: https://linkedin.com/in/pedro-álvarez0125
         - icon: fab fa-twitter
@@ -162,6 +163,7 @@ params:
         - "QGIS"
         - "Tableau"
         - "PowerBI"
+        - "Git/Github/GitKraken"
 
   # Experience
   experience:
@@ -216,50 +218,51 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Sampling Calculator
+        content: Calculates the population mean, total of the population, population proportion, and selection of the sample.
+        image: /images/projects/Calculadora.png
         featured:
           name: Demo
-          link: https://hugo-profile.netlify.app
+          link: https://pedroalvarezgmn.shinyapps.io/calculadora_MAS/?_ga=2.247521799.1843924875.1651636095-1423880638.1651636095
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+          - "Sampling"
+          - "R"
+          - "RShiny"
+        # links:
+        #   - icon: fa fa-envelope
+        #     url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/hugo-profile
+        #   - icon: fab fa-twitter
+        #     url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
+      - title: Sales System
+        content: A terminal app to manage a Car Agency sales.
         image: /images/projects/converter.jpg
         featured:
           name: Demo
-          link: https://django-converter.herokuapp.com
+          link: https://github.com/pedroalvarezg/sales-system
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "C++"
+          - "Terminal App"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/pedroalvarezg/sales-system
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+      - title: COVID-19 Predictions
+        content: A map of estimations of COVID-19 cases in each municipality of Mexico depending on its IDH(Human Development Index) using Bayesian Models approximating with Integrated Nested Laplace Approximation(INLA).
+        image: /images/projects/Mapa.png
+        # featured:
+        #   name: Demo V2
+        #   link: https://hugo-profile-2.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - "R"
+          - "COVID-19"
+          - "Prediction"
+        # links:
+        #   - icon: fab fa-github
+        #     url: https://github.com/gurusabarish/HugoProfileV2
+        # 
     
   # Education
   education:
@@ -301,31 +304,31 @@ params:
           url: "https://example.com"
 
   # Achievements
-  achievements:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
-
+  # achievements:
+  #   enable: true
+  #   # title: "Custom Name"
+  #   items:
+  #     - title: Google kickstart runner
+  #       content: I solved all problems with optimal solution.
+  #       url: https://example.com
+  #     - title: Facebook Hackathon Winner
+  #       content: Developed a product using Artificial Intelligence.
+  #     - title: Hugo Profile
+  #       content: Developed a theme and getting 1K+ downloads per month.
+  #       url: "https://github.com/gurusabarish/hugo-profile"
+  #     - title: Microsoft Imagine Runner
+  #       content: We are developed a product which can help others.
+  #     - title: Google Summer of Code
+  #       content: Contributed to a open source project.
+  #       url: https://example.com
+  # 
 
   #Contact
   contact:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
+    email: pagtab2@gmail.com
     btnName: Mail me
 
   footer:
@@ -333,14 +336,14 @@ params:
       path: "blogs"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      github: https://github.com/pedroalvarezg
+      linkedin: https://linkedin.com/in/pedro-álvarez0125
+      twitter: https://twitter.com/PedroAl0112
+      instagram: https://instagram.com/licpedro25
+     # facebook: https://facebook.com
 
   # List pages like blogs and posts
   listPages:
