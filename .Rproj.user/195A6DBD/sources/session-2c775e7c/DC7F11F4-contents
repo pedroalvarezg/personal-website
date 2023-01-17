@@ -56,7 +56,7 @@ params:
   title: "Pedro Alvarez"
   description: My cool website.
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/3.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -92,7 +92,7 @@ params:
     darkmode:
       textColor: "#F5F5F5"
       secondaryTextColor: "#F5F5F5"
-      backgroundColor: "#313552"
+      backgroundColor: "#0a051b"
       primaryColor: "#F1E0AC"
       secondaryColor: "#30475E"
 
@@ -101,7 +101,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     brandName: "Pedro Álvarez" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    disableSearch: true
     menus:
       disableAbout: false
       disableExperience: false
@@ -121,14 +121,14 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: /CV_PEDRO_ALVAREZ_GUZMAN.pdf
       download: true
       newPage: true
       
     socialLinks:
       fontAwesomeIcons:
-        - icon: fa fa-envelope
-          url: /#contact
+        - icon: fab fa-whatsapp
+          url: https://api.whatsapp.com/send?phone=5218112274464&text=Hi%2C%20I%20got%20your%20number%20from%20your%20personal%20website...
         - icon: fab fa-linkedin
           url: https://linkedin.com/in/pedro-álvarez0125
         - icon: fab fa-twitter
@@ -143,12 +143,12 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/yo2.jpeg"
     content: |-
-      I am an actuary with a passion for spatial data science. I have a strong background math/statistics, finance and programming, and I have a strong interest in the intersection of technology and health. I also have a strong interest in integrated nested Laplace approximation (INLA) to approximate Bayesian models.
+      I am an actuary with a passion for spatial data science. I have a strong background math/statistics, finance and programming, and I'm very interested in the intersection of technology and health. I also have a strong interest in integrated nested Laplace approximation (INLA) to approximate Bayesian models.
       I like the automation of processes. But one one of the things that I like the most is to create interactive Maps for data visualization(I also like to make dashboards for data viz).
 
-      I have been working as a full stack data scientist for more than 1 year with experience in retail,TI and spatial analysis. I have worked in proyects for more than 4 companies which gives me the ability to translate complex questions into understabdable insights.
+      I have been working as a full stack data scientist for more than 1 year with experience in retail,TI and spatial analysis. I have worked in proyects for more than 4 companies which gives me the ability to translate complex questions into understandable insights.
     skills:
       enable: true
       title: "Here are a few technologies and tools I've been working with:"
